@@ -1,0 +1,133 @@
+body, ul, li, h1, h2 a{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: rgb(242, 183, 21);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+} 
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius:10px;
+}
+.banner{
+    position: relative;
+    top: 4px;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    color: white;
+    background-color:rgba(242, 183, 21, 0.7);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius:40px ;
+}
+.banner h2{
+    font-size: 28px ;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: rgb(242, 183, 21);
+    padding: 20px;
+    position: sticky;
+    top:95px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 50%;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+}
+nav li a{
+    border: 6px solid;
+    border-radius: 25px;
+    padding: 6px 6px;
+    text-decoration: none ;
+    color: white;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2 {
+    color:rgb(242, 183, 21);
+    font-size: 48px;
+}
+article p{
+    line-height:2em;
+    background-color:rgba(183, 142, 29, 0.489);
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    border-radius:20px;
+    
+}
+
+.images {
+    text-align: center; 
+    margin:80px 0;
+    white-space: nowrap;
+}
+
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img{
+    max-width: 100%;
+}
+
+.kawaii{
+    background-color:#c3af78;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.kawaii h2{
+    display: inline-block;
+    font-size: 34px;
+    color: whitesmoke;
+}
+.kawaii h2 span{
+    color: rgb(238, 92, 116);
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20;
+    border-radius: 28px;
+    border: 4px solid white; 
+}
+footer{
+    background:rgb(242, 183, 21) ;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
