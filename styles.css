@@ -28,6 +28,7 @@ header h1 {
 }
 .banner img{
     max-width: 100%;
+    width: 100%;
 }
 .banner .welcome {
     position: absolute;
