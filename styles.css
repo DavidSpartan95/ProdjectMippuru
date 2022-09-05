@@ -6,7 +6,7 @@ body, ul, li, h1, h2 a{
 
 
 header {
-    background-color: rgba(242, 183, 21, 0.7);
+    background-color: rgba(242, 183, 21);
     padding: 10px;
     text-align: center;
     position: fixed;
