@@ -6,7 +6,7 @@ body, ul, li, h1, h2 a{
 
 
 header {
-    background-color: rgba(242, 183, 21);
+    background-color: rgb(242, 183, 21);
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -28,7 +28,6 @@ header h1 {
 }
 .banner img{
     max-width: 100%;
-    width: 100%;
 }
 .banner .welcome {
     position: absolute;
@@ -119,6 +118,16 @@ article p{
 }
 .kawaii h2 span{
     color: rgb(238, 92, 116);
+}
+
+#Lorem, #Hello, #san{
+    display: inline-block;
+    font-size: 34px;
+    color:rgb(238, 92, 116);
+    font-weight: 900;
+}
+#Hello, #san{
+    color: whitesmoke;
 }
 form input{
     margin: 20px 0;
