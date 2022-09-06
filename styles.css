@@ -69,6 +69,9 @@ nav li a{
     text-decoration: none ;
     color: white;
 }
+.meppuru:hover, .mippuru:hover {
+    padding: 10px 10px;
+}
 main{
     max-width: 100%;
     width: 1200px;
