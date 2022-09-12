@@ -145,3 +145,10 @@ footer{
     padding: 10px;
     text-align: center;
 }
+/*--------gamePartCSS--------------*/
+#grid {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
