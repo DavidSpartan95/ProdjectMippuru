@@ -122,7 +122,7 @@ function flipcard (){
    console.log(cardsChosen)
    console.log(cardsChosenIds)
    if (cardsChosen.length === 2){
-        setTimeout( checkMatch, 50)
+        setTimeout( checkMatch, 500)
    }
 }
 createBoard ()
