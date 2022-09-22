@@ -93,7 +93,7 @@ function checkMatch(){
         
     }
 
-    if (cardsChosen[0] == cardsChosen[1]){
+    else if (cardsChosen[0] == cardsChosen[1]){
         alert ("You found a match!")
         cards[optionOneId].setAttribute("src", "img/blank.jpg")
         cards[optionTwoId].setAttribute("src", "img/blank.jpg")
@@ -122,7 +122,7 @@ function flipcard (){
    console.log(cardsChosen)
    console.log(cardsChosenIds)
    if (cardsChosen.length === 2){
-        setTimeout( checkMatch, 500)
+        setTimeout( checkMatch, 50)
    }
 }
 createBoard ()
